@@ -58,7 +58,7 @@ ax2.legend()
 st.pyplot(fig2)
 
 # Daily returns distribution
-st.subheader("📊 Daily Returns Distribution")
+st.subheader("Daily Returns Distribution")
 fig3, ax3 = plt.subplots(figsize=(10, 5))
 sns.histplot(returns[selected_stock], bins=50, kde=True, ax=ax3)
 ax3.set_title(f"{selected_stock} Daily Returns")
